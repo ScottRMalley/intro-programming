@@ -1,5 +1,5 @@
 # Homework 4
-## Different ways of calculating the value of \pi
+## Different ways of calculating the value of <a href="https://www.codecogs.com/eqnedit.php?latex=\pi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\pi" title="\pi" /></a>
    
 1. The value of $\pi$ can be calculated by plotting random points on a graph in the range $S = (-1,\ 1)\times (-1,\ 1)$ and checking whether they are within the unit circle $S$. Remember that the unit circle has a radius $r=1$ and area $A_{circle}=\pi r^2 = \pi$. The area of the square is $A_{square}=2\times 2$. Therefore the probability that any random point $P_{x,y}$ in $S$ is within the circle $C$ is:
    $$P(P_{x,y} \in C\ |\ P_{x,y} \in S) = \frac{A_{circle}}{A_{square}} = \frac{\pi}{4}$$
