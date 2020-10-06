@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 ###
 def f(x):
     # your code goes here
-    return np.sqrt(1-x*x)
+    return np.array([])
 
 ###
 # This function should take an integer N and return a numpy array with N
@@ -113,8 +113,8 @@ if __name__ == '__main__':
     # The line below can be uncommented if you want to check whether your
     # function is defined properly and plots correctly. If you want to run just
     # this part, comment out the line below with compare_random_vs_linear()
-    plot_fx()
+    # plot_fx()
     
     # Here we compare the two methods. If everything is working correctly, the
     # function should show the two lines converging on the true value of pi
-    # compare_random_vs_linear()
+    compare_random_vs_linear()
