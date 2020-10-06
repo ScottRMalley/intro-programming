@@ -13,7 +13,7 @@ def list_to_base_10(b, l):
     current_val = 0
     l = l[::-1]
     for i in range(len(l)):
-        current_val += l[-i]*(b**i)
+        current_val += l[i]*(b**i)
     return current_val
 
 def to_base_10(b, n):
