@@ -38,7 +38,11 @@ def is_point_in_circle(point):
     # your code goes here
     return True
 
-
+###
+# This is the function where you actually estimate the value of pi
+# The input is a number N and the output is an estimate of pi based
+# on a sample of N random points.
+###
 def estimate_pi(N):
     # your code goes here
     return 0.0
