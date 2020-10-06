@@ -52,7 +52,7 @@
 
 	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large\text{Ave}[f(x)]&space;=&space;\frac{1}{1-0}\underbrace{\int_0^1&space;\sqrt{1-x^2}\&space;dx}_{\pi/4}&space;=&space;\frac{1}{1-0}\left(\frac{\pi}{4}&space;\right)&space;=&space;\frac{\pi}{4}" title="\text{Ave}[f(x)] = \frac{1}{1-0}\underbrace{\int_0^1 \sqrt{1-x^2}\ dx}_{\pi/4} = \frac{1}{1-0}\left(\frac{\pi}{4} \right) = \frac{\pi}{4}" /></div>
 
-	This means that if we can estimate an average value for the function we have derived, we can estimate the value of $\pi$ as:
+	This means that if we can estimate an average value for the function we have derived, we can estimate the value of <img src="https://latex.codecogs.com/gif.latex?\pi" title="\pi" /> as:
 	
 	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;\pi&space;=&space;4\times\text{Ave}[f(x)]" title="\large \pi = 4\times\text{Ave}[f(x)]" /></div>
 
