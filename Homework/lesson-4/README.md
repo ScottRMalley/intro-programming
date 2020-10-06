@@ -20,6 +20,40 @@
 	Note: In order to do this problem, you will need to install both `numpy` and `matplotlib`. You can install both of these packages from the command line via:
 
 	```
-		pip install numpy
-		pip install matplotlib
+	pip install numpy
+	pip install matplotlib
 	```
+2. The equation for a circle in Cartesian coordinates can be expressed as:
+
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;x^2&space;&plus;&space;y^2&space;=&space;r^2" title="\large x^2 + y^2 = r^2" /></div>
+
+	if we solve the above equation for <img src="https://latex.codecogs.com/gif.latex?y" title="y" /> we can express the y-coordinate as a function of <img src="https://latex.codecogs.com/gif.latex?x" title="x" />, ie:
+
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;f(x)&space;=&space;y&space;=&space;\sqrt{r^2&space;-&space;x^2}" title="\large f(x) = y = \sqrt{r^2 - x^2}" /></div>
+	
+	if we choose <img src="https://latex.codecogs.com/gif.latex?r&space;=&space;1" title="r=1" /> and plot the above function on the interval <img src="https://latex.codecogs.com/gif.latex?[0,\&space;1)" title="[0,\ 1)" /> we get the following graph.
+
+	![Figure 1](images/figure1.png?raw=true "Title")
+
+
+	We can see immediately that this is the equation for one quadrant of a circle. Knowing that the area of a circle is <img src="https://latex.codecogs.com/gif.latex?\pi&space;r^2" title="\pi r^2" /> and that this represents one quarter of the area of the circle, we can see immediately that since <img src="https://latex.codecogs.com/gif.latex?r&space;=&space;1" title="r=1" /> , the area under this curve should be:
+
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;A_{curve}&space;=&space;\frac{1}{4}A_{circle}&space;=&space;\frac{1}{4}\pi&space;(1)^2&space;=&space;\frac{\pi}{4}" title="\large A_{curve} = \frac{1}{4}A_{circle} = \frac{1}{4}\pi (1)^2 = \frac{\pi}{4}" /></div>
+
+	From calculus, we know that the integral of a function within certain limits is equal to the area under the curve. Therefore, since we already know the area under <img src="https://latex.codecogs.com/gif.latex?f(x)" title="f(x)" />  on the interval <img src="https://latex.codecogs.com/gif.latex?[0,\&space;1)" title="[0,\ 1)" />, we also know the value of the integral:
+
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;\int\limits_{0}^{1}&space;\sqrt{1-x^2}\&space;dx&space;=&space;\frac{\pi}{4}" title="\large \int\limits_{0}^{1} \sqrt{1-x^2}\ dx = \frac{\pi}{4}" /></div>
+	
+	We also know that the average value of a function over a range is equal to the integral of the function divided by that range. More precisely:
+
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;\text{Ave}[f(x)]&space;=&space;\frac{1}{b-a}\int\limits_a^b&space;f(x)\&space;dx" title="\large \text{Ave}[f(x)] = \frac{1}{b-a}\int\limits_a^b f(x)\ dx" /></div>
+
+	For our function on the range <img src="https://latex.codecogs.com/gif.latex?[0,\&space;1)" title="[0,\ 1)" /> the average value is therefore:
+
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large\text{Ave}[f(x)]&space;=&space;\frac{1}{1-0}\underbrace{\int_0^1&space;\sqrt{1-x^2}\&space;dx}_{\pi/4}&space;=&space;\frac{1}{1-0}\left(\frac{\pi}{4}&space;\right)&space;=&space;\frac{\pi}{4}" title="\text{Ave}[f(x)] = \frac{1}{1-0}\underbrace{\int_0^1 \sqrt{1-x^2}\ dx}_{\pi/4} = \frac{1}{1-0}\left(\frac{\pi}{4} \right) = \frac{\pi}{4}" /></div>
+
+	This means that if we can estimate an average value for the function we have derived, we can estimate the value of $\pi$ as:
+	
+	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;\pi&space;=&space;4\times\text{Ave}[f(x)]" title="\large \pi = 4\times\text{Ave}[f(x)]" /></div>
+
+	
