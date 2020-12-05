@@ -1,4 +1,11 @@
-# Homework 4
+# Assignment 4
+
+This assignment is slightly different in structure than the previous ones. First read the problem descriptions below and the complete the assignment by completing the functions in the following Python files:
+* [Part 1](problem1.py)
+* [Part 2](problem2.py)
+
+There are further hints and instructions in the comments of the python files.
+
 ## Different ways of calculating the value of <img src="https://latex.codecogs.com/gif.latex?\LARGE&space;\pi" title="\LARGE \pi" />
    
 1. The value of <img src="https://latex.codecogs.com/gif.latex?\pi" title="\pi" /> can be calculated by plotting random points on a graph in the range <img src="https://latex.codecogs.com/gif.latex?S&space;=&space;(-1,\&space;1)\times&space;(-1,\&space;1)" title="S = (-1,\ 1)\times (-1,\ 1)" /> and checking whether they are within the unit circle <img src="https://latex.codecogs.com/gif.latex?C" title="C" />. Remember that the unit circle has a radius <img src="https://latex.codecogs.com/gif.latex?r=1" title="r=1" /> and area <img src="https://latex.codecogs.com/gif.latex?A_{circle}=\pi&space;r^2&space;=&space;\pi" title="A_{circle}=\pi r^2 = \pi" />. The area of the square is <img src="https://latex.codecogs.com/gif.latex?A_{square}=2\times&space;2" title="A_{square}=2\times 2" />. Therefore the probability that any random point <img src="https://latex.codecogs.com/gif.latex?P_{x,y}" title="P_{x,y}" /> in <img src="https://latex.codecogs.com/gif.latex?S" title="S" /> is within the circle <img src="https://latex.codecogs.com/gif.latex?C" title="C" /> is:
@@ -56,4 +63,6 @@
 	
 	<div style="text-align:center"><img src="https://latex.codecogs.com/gif.latex?\large&space;\pi&space;=&space;4\times\text{Ave}[f(x)]" title="\large \pi = 4\times\text{Ave}[f(x)]" /></div>
 
-	
+Solutions can be found here:
+* [Problem 1 Solution](./solutions/problem1_solution.py)
+* [Problem 2 Solution](./solutions/problem2_solution.py)

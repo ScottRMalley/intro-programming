@@ -1,5 +1,6 @@
 import sys
 
+
 def maximum(input_list):
     # assume first is the maximum
     m = input_list[0]
@@ -8,6 +9,7 @@ def maximum(input_list):
         if j > m:
             m = j
     return m
+
 
 if __name__ == '__main__':
     

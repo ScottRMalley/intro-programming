@@ -1,8 +1,10 @@
 import sys
 
+
 def apply(func, input_list):
     return_list = [func(item) for item in input_list]
     return return_list
+
 
 def capitalize(word):
     if type(word) == str:
@@ -12,8 +14,9 @@ def capitalize(word):
 
 def increment(number):
     if type(number) == int:
-        return number +1
+        return number + 1
     return number
+
 
 def special_sum(input_list):
     int_sum = 0
@@ -26,6 +29,7 @@ def special_sum(input_list):
     input_list.append(str_sum + str(int_sum))
     return input_list
 
+
 if __name__ == '__main__':
     input_list = [1, 2, 'some', 'happy', 33, 'mango']
 
@@ -33,6 +37,3 @@ if __name__ == '__main__':
     print('capitalize: {}'.format(apply(capitalize, input_list)))
     print('increment: {}'.format(apply(increment, input_list)))
     print('special sum: {}'.format(special_sum(input_list)))
-          
-
-    

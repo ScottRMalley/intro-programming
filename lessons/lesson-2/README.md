@@ -1,21 +1,4 @@
-Lesson Plan 24-05-2020
-
------ Things that would have been useful -----
-- String formating
-- Integer division
-- Dictionaries
-- List append
-- Sets
-- While loops
-
------ Functions -----
-- Main statement in python
-- Modules vs standalone code
-- Code style, modularity, variable naming
-- passing a function as an argument
-- recursion
-
------ Homework -----
+# Assignment 2
 Every answer should accept command line arguments
 1. Write three functions that multiply every element of an integer list:
 	a. using for loops
@@ -28,3 +11,8 @@ Every answer should accept command line arguments
 3. Write a function that computes the first N fibonacci numbers
 	a. using a for loop
 	b. using recursion
+
+Solutions can be found here:
+* [Problem 1 Solution](./solutions/p1.py)
+* [Problem 2 Solution](./solutions/p2.py)
+* [Problem 3 Solution](./solutions/p3.py)
