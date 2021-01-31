@@ -5,3 +5,4 @@ Assignment descriptions can be found in the README for each corresponding lesson
  * [Assignment 3](lessons/lesson-3/README.md)
  * [Assignment 4](lessons/lesson-4/README.md)
  
+ This is an example of a change to a README.
